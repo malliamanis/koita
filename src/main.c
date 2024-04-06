@@ -70,7 +70,7 @@ int main(int argc, char **argv)
 		if ((i + char_width) % pixels_width == 0) {
 			putchar('\n');
 
-			i += (char_width /*-1*/) * pixels_width;
+			i += (char_width - 1) * pixels_width;
 		}
 	}
 
